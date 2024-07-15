@@ -6,7 +6,7 @@ loop do
         break
     end
 end
-
+# This code snippet produecs the same results, but it's not recommended by Matz, the Ruby Creator
 begin
     puts "Do you want to do this again?"
       answer = gets.chomp
